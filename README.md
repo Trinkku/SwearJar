@@ -132,3 +132,7 @@ Kun kuukausi tilitetään, tapahtumat merkitään `settlementId`:llä.
 
 Näin tapahtumahistoria säilyy ja muutokset synkronoituvat luotettavasti usean laitteen välillä.
 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/8d9e106e-6e71-4b88-8314-18fb2eb6096e" />
+
+
+
