@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Kiroilukassa",
+    "slug": "kiroilukassa",
+    "version": "1.0.0",
+    "scheme": "kiroilukassa",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F5F1EA",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5F1EA"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "fi.kiroilukassa.app"
+    },
+    "android": {
+      "package": "fi.kiroilukassa.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#F5F1EA",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "name": "Kiroilukassa",
+      "shortName": "Kiroilukassa",
+      "themeColor": "#F5F1EA",
+      "backgroundColor": "#F5F1EA",
+      "display": "standalone",
+      "orientation": "portrait",
+      "lang": "fi"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-splash-screen",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
